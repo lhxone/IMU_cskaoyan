@@ -14,7 +14,7 @@
 int main()
 {
     int N;
-    double sum = 0, up = 2, down = 1, temp;
+    long double sum = 0, up = 2, down = 1, temp;
     scanf("%d", &N);
     for (int i = 0; i < N; i++)
     {
@@ -23,5 +23,5 @@ int main()
         up += down;
         down = temp;
     }
-    printf("%f\n", sum);
+    printf("%lf\n", sum);
 }
