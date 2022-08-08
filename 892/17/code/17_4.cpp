@@ -14,7 +14,7 @@
 int main()
 {
     int N;
-    long double sum = 0, up = 2, down = 1, temp;
+    double sum = 0, up = 2, down = 1, temp;
     scanf("%d", &N);
     for (int i = 0; i < N; i++)
     {
